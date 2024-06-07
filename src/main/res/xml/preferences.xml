@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Theme Einstellungen -->
+    <androidx.preference.SwitchPreferenceCompat
+        android:key="theme_preference"
+        android:title="Dark Mode"
+        android:summary="Enable dark mode"
+        android:defaultValue="false"/>
+
+    <!-- Spracheinstellungen -->
+    <androidx.preference.ListPreference
+        android:key="language_preference"
+        android:title="Language"
+        android:summary="Select your preferred language"
+        android:entries="@array/language_options"
+        android:entryValues="@array/language_values"
+        android:defaultValue="en"/>
+
+    <!-- Benachrichtigungseinstellungen -->
+    <androidx.preference.SwitchPreferenceCompat
+        android:key="notification_preference"
+        android:title="Notifications"
+        android:summary="Enable app notifications"
+        android:defaultValue="true"/>
+
+    <!-- Konto-Einstellungen -->
+    <PreferenceScreen
+        android:key="account_settings"
+        android:title="Account Settings">
+        <Preference
+            android:key="change_password"
+            android:title="Change Password"/>
+        <Preference
+            android:key="delete_account"
+            android:title="Delete Account"/>
+    </PreferenceScreen>
+
+    <!-- App-Informationen -->
+    <PreferenceScreen
+        android:key="app_info_settings"
+        android:title="App Information">
+        <Preference
+            android:key="version_info"
+            android:title="Version"/>
+        <Preference
+            android:key="developer_info"
+            android:title="Developer"/>
+    </PreferenceScreen>
+
+</PreferenceScreen>
