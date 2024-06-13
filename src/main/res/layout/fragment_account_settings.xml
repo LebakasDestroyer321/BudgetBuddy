@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Profilinformationen -->
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benutzername"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="beispiel@email.com"
+        android:textSize="18sp"
+        android:layout_below="@id/profile_name"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Abmelden-Button -->
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Abmelden"
+        android:layout_below="@id/profile_email"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Account löschen-Button -->
+    <Button
+        android:id="@+id/delete_account_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Account löschen"
+        android:layout_below="@id/logout_button"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

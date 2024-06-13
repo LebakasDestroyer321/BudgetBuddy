@@ -1,0 +1,15 @@
+Protokoll
+Datum: 2024-07-06
+
+Was ist gut gelaufen?
+
+-Die Api Integration funktioniert jetzt korrekt.
+-Das Github Repository wurde erfolgreich eingerichtet
+
+Welche Probleme sind aufgetreten?
+
+-Anfangsschwierigkeiten bei der API-Integration.
+
+Wie liege ich im Zeitplan?
+
+- Der Zeitplan wurde bisher eingehalten.

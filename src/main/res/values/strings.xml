@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo_description">Beschreibung des Logos</string>
+
+    <string-array name="filter_options">
+        <item>Last 7 Days</item>
+        <item>Last 30 Days</item>
+    </string-array>
+
+    <!-- Sprachoptionen -->
+    <string-array name="language_options">
+        <item>English</item>
+        <item>German</item>
+        <!-- Weitere Sprachoptionen hinzufügen, falls erforderlich -->
+    </string-array>
+
+    <!-- Sprachwerte (ISO 639-1 Codes oder andere eindeutige Bezeichnungen) -->
+    <string-array name="language_values">
+        <item>en</item> <!-- Englisch -->
+        <item>de</item> <!-- Deutsch -->
+        <!-- Weitere Sprachwerte hinzufügen, falls erforderlich -->
+    </string-array>
+
+    <!-- Währungsoptionen, neu hinzugefügt -->
+    <string-array name="currency_options">
+        <item>Euro (EUR)</item>
+        <item>US Dollar (USD)</item>
+        <item>Britisches Pfund (GBP)</item>
+        <item>Japanischer Yen (JPY)</item>
+        <item>Australischer Dollar (AUD)</item>
+    </string-array>
+</resources>
