@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#305B68"
+    android:hapticFeedbackEnabled="true">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="412dp"
+        android:layout_height="748dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hintergrundstart" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:onClick="goToStart"
+        android:shadowColor="#6E6363"
+        android:text="back"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#F4F3F3"
+        android:textColorHint="#F1ECEC"
+        android:textColorLink="#EDE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926"
+        app:rippleColor="#5C5252"
+        app:strokeColor="#4C4242" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.Material3.Button.IconButton.Outlined"
+        android:layout_width="250dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="goToPictureOfTheDay"
+        android:text="Picture of the day"
+        android:textColor="#F6F4F4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.Material3.Button.IconButton.Outlined"
+        android:layout_width="250dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="goToExoplanetTracker"
+        android:text="Exoplanet Tracker"
+        android:textColor="#F6F4F4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="cursive"
+        android:text="Stellarium"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#F4F2F2"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
